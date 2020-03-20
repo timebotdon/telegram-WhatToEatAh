@@ -14,9 +14,9 @@
   `npm install`
 
 3. Set up mongoDb
-a. Create a new database - example used in app.js is "test".
-b. Create a new collection in database - example used is "foodlist"
-c. Import all entries of "foodlist.json" into the db.
+..1. Create a new database - example used in app.js is "test".
+..2. Create a new collection in database - example used is "foodlist"
+..3. Import all entries of "foodlist.json" into the db.
 
 3. Define Telegram Bot API token, in config.json. The bot API token must be acquired from the Botfather bot. More information here:
 https://core.telegram.org/bots
