@@ -3,7 +3,7 @@ const { MongoClient } = require('mongodb');
 const TelegramBot = require('node-telegram-bot-api');
 
 //Import bot api token
-const config = require('./config.json');
+const config = require('./test_config.json');
 
 //define MongoDB url
 const url = "mongodb://localhost:27017/test";
@@ -12,7 +12,7 @@ const url = "mongodb://localhost:27017/test";
 var bot = new TelegramBot(config.teleBotToken, {polling: true});
 
 //Bot will send message containing food data when receiving text.
-bot.onText(/(eat what ah|what to eat ah)(.+)/i, (msg) => {
+bot.onText(/(eat what|what to eat)/i, (msg) => {
   getFood(function(finalName, finalType, finalCuisine){ //finalType & finalCuisine not implemented yet.
     bot.sendMessage(msg.chat.id, finalName + ".");
   })

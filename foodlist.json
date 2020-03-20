@@ -12,7 +12,7 @@
 {"name": "Mos Burger", "cuisine": "japanese", "type": "fast food"}
 {"name": "4 Fingers", "cuisine": "local", "type": "fast food"}
 {"name": "Crystal Jade", "cuisine": "chinese", "type": "casual dining"}
-{"name": "Hai Di Lao", "cuisine": "chinese", "type": "casual dining"}
+{"name": "Hai Di Lao Hotpot", "cuisine": "chinese", "type": "casual dining"}
 {"name": "Tim Ho Wan", "cuisine": "chinese", "type": "casual dining"}
 {"name": "Din Tai Fung", "cuisine": "chinese", "type": "casual dining"}
 {"name": "Steamboat", "cuisine": "chinese", "type": "casual dining"}
@@ -20,6 +20,7 @@
 {"name": "Maki San", "cuisine": "japanese", "type": "casual dining"}
 {"name": "Tori-Q", "cuisine": "japanese", "type": "casual dining"}
 {"name": "Ippudo", "cuisine": "japanese", "type": "casual dining"}
+{"name": "Teppanyaki", "cuisine": "japanese", "type": "casual dining"}
 {"name": "Menya Musashi", "cuisine": "japanese", "type": "casual dining"}
 {"name": "Ramen Champion", "cuisine": "japanese", "type": "casual dining"}
 {"name": "Hei Sushi", "cuisine": "japanese", "type": "casual dining"}
@@ -31,9 +32,9 @@
 {"name": "Jack's Place", "cuisine": "western", "type": "casual dining"}
 {"name": "Aston's", "cuisine": "western", "type": "casual dining"}
 {"name": "Shake Shack", "cuisine": "western", "type": "casual dining"}
+{"name": "Eighteen Chefs", "cuisine": "western", "type": "casual dining"}
+{"name": "Collin's", "cuisine": "western", "type": "casual dining"}
 {"name": "Aroy Dee", "cuisine": "thai", "type": "casual dining"}
-{"name": "Eighteen Chefs", "cuisine": "local", "type": "casual dining"}
-{"name": "Collin's", "cuisine": "local", "type": "casual dining"}
 {"name": "Nasi Padang", "cuisine": "malay", "type": "hawker"}
 {"name": "Nasi Lemak", "cuisine": "malay", "type": "hawker"}
 {"name": "Ayam Penyet", "cuisine": "malay", "type": "hawker"}
@@ -101,8 +102,16 @@
 {"name": "Fried Rice (Korean)", "cuisine": "korean", "type": "hawker"}
 {"name": "Saba fish rice set", "cuisine": "korean", "type": "hawker"}
 {"name": "Kimchi Ramen", "cuisine": "korean", "type": "hawker"}
-{"name": "Tom Yam Souo", "cuisine": "thai", "type": "hawker"}
+{"name": "Tom Yam Soup", "cuisine": "thai", "type": "hawker"}
+{"name": "Tom Yam Fried Rice", "cuisine": "thai", "type": "hawker"}
 {"name": "Boat Noodles", "cuisine": "thai", "type": "hawker"}
 {"name": "Basil Rice", "cuisine": "thai", "type": "hawker"}
-{"name": "Green/Red Curry", "cuisine": "thai", "type": "hawker"}
+{"name": "Kway Teow", "cuisine": "thai", "type": "hawker"}
+{"name": "Green Curry", "cuisine": "thai", "type": "hawker"}
+{"name": "Green Curry Fried Rice", "cuisine": "thai", "type": "hawker"}
+{"name": "Red Curry", "cuisine": "thai", "type": "hawker"}
 {"name": "Pho", "cuisine": "vietnamese", "type": "hawker"}
+{"name": "Goi cuon", "cuisine": "vietnamese", "type": "hawker"}
+{"name": "Banh Mi", "cuisine": "vietnamese", "type": "hawker"}
+{"name": "Bun Cha", "cuisine": "vietnamese", "type": "hawker"}
+{"name": "Mi quang", "cuisine": "vietnamese", "type": "hawker"}
