@@ -1,0 +1,28 @@
+{
+    "$" :[
+        {"response": "Really no money ah? Ok lor."},
+        {"response": "Cheap food still good."},
+        {"response": "Save more today la."}
+    ],
+    "$$" :[
+        {"response": "Treat yourself today. Sort of.."},
+        {"response": "You wan something cheap but not so cheap? Ok."},
+        {"response": "Watch the fried food intake ah.."}
+    ],
+    "$$$" :[
+        {"response": "Splurge more today. Still got savings right?"},
+        {"response": "You just got your pay right?"},
+        {"response": "Have something more ex today."}
+    ],
+    "$$$$" :[
+        {"response": "Might as well cover your friends meal sia."},
+        {"response": "Chor sia."},
+        {"response": "Might as well have Hai Di Lao."}
+    ],
+    "$$$$$" :[
+        {"response": "Rich kids.."},
+        {"response": "You confirm won't like this.. "},
+        {"response": "Money fly away lo."},
+        {"response": "Why you asking me what to eat if you can afford everything??"}
+    ]
+}

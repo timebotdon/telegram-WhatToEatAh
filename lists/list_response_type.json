@@ -1,0 +1,20 @@
+{
+    "hawker" :[
+        {"response": "How about this today ah,"},
+        {"response": "You really dunno what to eat meh.."},
+        {"response": "Lim kopi drink teh and eat"},
+        {"response": "Go kopitiam eat"},
+        {"response": "Shui bian lor."}
+    ],
+    "fast_food" :[
+        {"response": "Oi, watch your oil intake ah."},
+        {"response": "Cheat day!!"},
+        {"response": "Make sure to drink water too hor."},
+        {"response": "Dabao for me pls thanks."}
+    ],
+    "casual_dining" :[
+        {"response": "Atas abit today."},
+        {"response": "Lai spend some money."},
+        {"response": "Cannot finish pls dun waste."}
+    ]
+}
