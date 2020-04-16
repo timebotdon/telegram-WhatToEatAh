@@ -52,16 +52,6 @@ Note that the MongoDB version will NOT be included in future revisions(r2+) as i
 * Text the bot `what to eat ah` or `eat what ah` via telegram. The response will include a randomized food suggestion derived from the JSON list/mongoDB database.
 * Text the bot `I want to eat` or `I want` to specify a filtered response. eg: `I want to eat cheaper korean fastfood` I will result in a response falling within those 3 categories (price, cuisine, foodtype) more explained on next section.
 
-### Responses
-#### Food type
-Food responses are now food type specific. Refer to `./lists/list_response_type.json`.
-#### Price
-This will be implemented to include price specific as well. Refer to `./lists/list_response_price.json`.
-The end goal is to send a randomized response between both categories. 
-
-#### "Thanks" repsonses
-The bot will now repond to "Thank you" messages with a randomized message. Refer to `./lists/list_response_NoProb.json`.
-
 ### Input Filters
 Accepted inputs. Refer to `./lists/list_food.json` for specifications. All inputs are case insensitive.
 
@@ -88,6 +78,16 @@ Accepted inputs. Refer to `./lists/list_food.json` for specifications. All input
 3. $$$ - message text: "midrange" or "mid"
 4. $$$$ - message text: "highend"
 5. $$$$$ - message text: "expensive" or "ex"
+
+### Responses
+#### Food type
+Food responses are now food type specific. Refer to `./lists/list_response_type.json`.
+#### Price
+This will be implemented to include price specific as well. Refer to `./lists/list_response_price.json`.
+The end goal is to send a randomized response between both categories. 
+
+#### "Thanks" repsonses
+The bot will now repond to "Thank you" messages with a randomized message. Refer to `./lists/list_response_NoProb.json`.
 
 # Bugs
 Yep theres still many bugs to fix at this point...

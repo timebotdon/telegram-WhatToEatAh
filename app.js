@@ -3,7 +3,6 @@ const TelegramBot = require('node-telegram-bot-api');
 const fl = require('./lists/list_food').foodlist;
 const resType = require('./lists/list_response_type');
 const resNoProb = require('./lists/list_response_NoProb').responses;
-//const resp = require('./lists/list_response_price');
 
 //Import bot api token
 const config = require('./config.json');
@@ -131,20 +130,19 @@ bot.onText(/(I want| I want to eat)/i, (msg) => {
 
 // for each element in identifierArray
 function processInput(identifierArray, functionArray, callback){
-  if (typeof identifierArray[0] !== 'undefined' ) {
+  if (typeof identifierArray[0] !== 'undefined'){
     const f0 = eval(functionArray[0] + "(identifierArray[0].toString())");
     const random = Math.floor(Math.random() * (f0.length)) // get random from result
     var finalName = f0[random].name;
     var finalType = f0[random].type;
     var finalCuisine = f0[random].cuisine;
-    if (typeof identifierArray[1] !== 'undefined' ) {
-      console.log(identifierArray);
+    if (typeof identifierArray[1] !== 'undefined'){
       const f1 = eval(functionArray[1] + "(identifierArray[1].toString(), f0)");
       const random = Math.floor(Math.random() * (f1.length)) // get random from result
       var finalName = f1[random].name;
       var finalType = f1[random].type;
       var finalCuisine = f1[random].cuisine;
-      if (typeof identifierArray[2] !== 'undefined' ) {
+      if (typeof identifierArray[2] !== 'undefined'){
         const f2 = eval(functionArray[2] + "(identifierArray[2].toString(), f1)");
         const random = Math.floor(Math.random() * (f2.length)) // get random from result
         var finalName = f2[random].name;
